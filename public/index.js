@@ -17,6 +17,4 @@ app.post("/mcargs", (req, res) => {
   res.json(mcargs);
 });
 
-app.listen(10000, () => {
-  console.log("Service listening on port 10000");
-});
+
